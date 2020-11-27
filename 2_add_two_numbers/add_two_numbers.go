@@ -1,17 +1,16 @@
 package main
 
-/**
-* Definition for singly-linked list.
- * type ListNode struct {
-  *     Val int
-   *     Next *ListNode
-* }
-*/
+import (
+	. "../util/list"
+)
 
+/*
 type ListNode struct {
 	Val  int
 	Next *ListNode
 }
+
+*/
 
 // return a new list
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
