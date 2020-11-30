@@ -6,6 +6,10 @@ import (
 )
 
 func TestAddTwoNumbers(t *testing.T) {
-	l := CreateList([]int{1, 2, 3, 4})
-	OutputList(l)
+	l1 := CreateList([]int{2, 9, 3, 4})
+	OutputList(l1)
+	l2 := CreateList([]int{9})
+	OutputList(l2)
+	OutputList(addTwoNumbers(l1, l2))
+
 }
