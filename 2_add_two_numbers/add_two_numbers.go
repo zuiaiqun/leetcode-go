@@ -37,6 +37,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 			tmp = tmp.Next
 		}
 		tmp.Val = curVal
+		i++
 	}
 	for ; f != nil; f = f.Next {
 		curVal := (f.Val + left) % 10
