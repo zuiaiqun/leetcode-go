@@ -11,5 +11,5 @@ func TestAddTwoNumbers(t *testing.T) {
 	l2 := CreateList([]int{9})
 	OutputList(l2)
 	OutputList(addTwoNumbers(l1, l2))
-
+	OutputList(addTwoNumbers(l2, CreateList([]int{1, 9})))
 }
